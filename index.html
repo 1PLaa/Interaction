@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OCAD Research Talks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="poster">
+
+    <div class="mouse-glow"></div>
+
+    <!-- background blocks -->
+    <div class="block block-pink"></div>
+    <div class="block block-green"></div>
+    <div class="block block-blue"></div>
+    <div class="block block-cream"></div>
+
+    <!-- moving lines -->
+    <div class="lines">
+      <span class="line l1"></span>
+      <span class="line l2"></span>
+      <span class="line l3"></span>
+      <span class="line l4"></span>
+      <span class="line l5"></span>
+      <span class="line l6"></span>
+      <span class="line l7"></span>
+      <span class="line l8"></span>
+    </div>
+
+    <!-- ring system -->
+    <div class="rings ring1 rotate-slow"><span></span><span></span><span></span></div>
+    <div class="rings ring2"><span></span><span></span><span></span></div>
+    <div class="rings ring3 rotate-slow"><span></span><span></span><span></span></div>
+    <div class="rings ring4"><span></span><span></span><span></span></div>
+    <div class="rings ring5 rotate-slower"><span></span><span></span><span></span></div>
+    <div class="rings ring6"><span></span><span></span><span></span></div>
+
+    <div class="cluster">
+      <div class="rings mini m1"><span></span><span></span><span></span></div>
+      <div class="rings mini m2"><span></span><span></span><span></span></div>
+      <div class="rings mini m3"><span></span><span></span><span></span></div>
+    </div>
+
+    <!-- title -->
+    <section class="title-block">
+      <p class="small-note">OCAD U / ARTS & SCIENCE / RESEARCH TALKS</p>
+      <h1>REVEAL<br>THE<br>TALKS</h1>
+      <p class="instruction">follow the arrows / click to uncover</p>
+    </section>
+
+    <!-- a few arrows -->
+    <button class="arrow arrow1 trigger" data-target="vanessa" type="button" aria-label="Reveal Vanessa Dion Fletcher">➜</button>
+    <button class="arrow arrow2 trigger" data-target="kelsey" type="button" aria-label="Reveal Kelsey Pugh">➜</button>
+    <button class="arrow arrow3 trigger" data-target="anna" type="button" aria-label="Reveal Anna Stielau">➜</button>
+
+    <!-- hotspots -->
+    <button class="hotspot hotspot1 trigger" data-target="vanessa" type="button" aria-label="Reveal speaker 01">
+      <span>01</span>
+    </button>
+
+    <button class="hotspot hotspot2 trigger" data-target="kelsey" type="button" aria-label="Reveal speaker 02">
+      <span>02</span>
+    </button>
+
+    <button class="hotspot hotspot3 trigger" data-target="anna" type="button" aria-label="Reveal speaker 03">
+      <span>03</span>
+    </button>
+
+    <!-- info cards -->
+    <section id="vanessa" class="speaker-info card1">
+      <p class="index">speaker 01</p>
+      <h2>Vanessa Dion Fletcher</h2>
+      <h3>BIG Doll || Xwat Naaniitus</h3>
+      <p>
+        An ongoing artistic process shaped by participation, embodiment,
+        and making from the heart.
+      </p>
+    </section>
+
+    <section id="kelsey" class="speaker-info card2">
+      <p class="index">speaker 02</p>
+      <h2>Kelsey Pugh</h2>
+      <h3>Reconstructing Ancient Faces</h3>
+      <p>
+        Exploring fossils, human evolution, and the reconstruction
+        of ancient human faces.
+      </p>
+    </section>
+
+    <section id="anna" class="speaker-info card3">
+      <p class="index">speaker 03</p>
+      <h2>Anna Stielau</h2>
+      <h3>Arts of Darkness</h3>
+      <p>
+        Rethinking photography through darkness, infrastructure,
+        and unstable environments.
+      </p>
+    </section>
+
+    <!-- event info -->
+    <aside class="event-info">
+      <p>March 24, 2026</p>
+      <p>3:30–4:30 PM</p>
+      <p>100 McCaul St / Room 543</p>
+    </aside>
+
+    <!-- cursor guide -->
+    <div class="cursor-guide" id="cursorGuide">➜</div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
